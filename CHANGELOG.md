@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.0.0...v1.1.0) (2023-02-26)
+
+
+### Features
+
+* reuse shared configuration in project release configuration ([aeab108](https://github.com/JanSzewczyk/semantic-release-preset/commit/aeab108fc3f22057f3cebe30630215a286e18428))
+
 # 1.0.0 (2023-02-26)
 
 
