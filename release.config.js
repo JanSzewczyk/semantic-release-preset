@@ -7,6 +7,6 @@ module.exports = {
     "@semantic-release/changelog",
     "@semantic-release/npm",
     ["@semantic-release/git", { assets: ["CHANGELOG.md", "package.json"] }],
-    // "@semantic-release/github"
+    "@semantic-release/github"
   ]
 };
