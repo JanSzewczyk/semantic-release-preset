@@ -25,8 +25,9 @@ jobs:
       - name: Install packages ⚙️
         run: yarn install --frozen-lockfile
 
-      - name: Deploy package 🚀
-        run: yarn semantic-release
+      - name: Publish package 🚀
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: "${{ secrets.NPM_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
+        run: yarn semantic-release
+
