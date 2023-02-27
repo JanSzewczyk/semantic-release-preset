@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.2.0...v1.2.1) (2023-02-27)
+
+
+### Bug Fixes
+
+* change git commit message ([d405d85](https://github.com/JanSzewczyk/semantic-release-preset/commit/d405d856c9c6c45dc0b125925da516fcdab8d5b2))
+
 # [1.2.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.1.0...v1.2.0) (2023-02-27)
 
 
