@@ -1,6 +1,6 @@
 {
   "name": "@szum-tech/semantic-release-preset",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Recommended setup for releasing semantically using GitHub Actions workflows compliance with the Szum-Tech standards.",
   "main": "index.js",
   "repository": {

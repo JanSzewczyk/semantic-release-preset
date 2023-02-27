@@ -1,3 +1,15 @@
+<!-- markdownlint-disable --><!-- textlint-disable -->
+# 📓 Changelog
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.2.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.1.0...v1.2.0) (2023-02-27)
+
+
+### Features
+
+* **release-config:** add additional options to configuration ([6f15d4a](https://github.com/JanSzewczyk/semantic-release-preset/commit/6f15d4a42f0bc94190f1698041b01e06a21d7d8f))
+
 # [1.1.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.0.0...v1.1.0) (2023-02-26)
 
 
