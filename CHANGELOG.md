@@ -1,4 +1,16 @@
 <!-- markdownlint-disable --><!-- textlint-disable -->
+# 📓 Changelog
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.4.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.3.0...v1.4.0) (2023-02-27)
+
+
+### Features
+
+* add `dependabot` configuration ([98d0130](https://github.com/JanSzewczyk/semantic-release-preset/commit/98d013039f48c6527a45aa76abad42ae3d02aca6))
+
+<!-- markdownlint-disable --><!-- textlint-disable -->
 
 # 📓 Changelog
 
