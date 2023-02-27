@@ -34,7 +34,8 @@
     "node": ">=18"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "without-npm.js"
   ],
   "dependencies": {
     "@semantic-release/changelog": "^6.0.2",
