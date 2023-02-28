@@ -10,6 +10,7 @@
 [![npm](https://img.shields.io/npm/v/@szum-tech/semantic-release-preset)](https://www.npmjs.com/package/@szum-tech/semantic-release-preset)
 ![npm](https://img.shields.io/npm/dm/@szum-tech/semantic-release-preset)
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/JanSzewczyk/semantic-release-preset/blob/main/LICENSE)
 
 ---
@@ -18,7 +19,7 @@ Semantic-release shareable configuration to publish GitHub projects using GitHub
 
 # Features 
 
-- Uses [Conventional Commits](https://www.conventionalcommits.org/) to generate [release notes](https://github.com/semantic-release/release-notes-generator), [changelogs](https://github.com/semantic-release/changelog) and [determine the version for new releases](https://github.com/semantic-release/commit-analyzer).
+- Uses [Conventional Commits](https://www.conventionalcommits.org/) to generate [release notes](https://github.com/semantic-release/release-notes-generator), [changelogs](https://github.com/semantic-release/changelog) and [determine the version for new releases](https://github.com/semantic-release/commit-analyzer). 
 - [Creates or updates a CHANGELOG.md file](https://github.com/semantic-release/changelog).
 - [Publishes to npm (optional)](https://github.com/semantic-release/npm).
 - [Creates a new release on GitHub](https://github.com/semantic-release/github)
