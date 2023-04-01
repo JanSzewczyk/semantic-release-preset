@@ -13,11 +13,12 @@ yarn-error.log*
 # VS Code
 /.vscode
 
+# DOCS
+CHANGELOG.md
+
 # Project files
 yarn.lock
 LICENSE
-README.md
 .gitignore
-/.github
 
 
