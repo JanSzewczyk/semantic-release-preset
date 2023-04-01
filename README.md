@@ -17,9 +17,9 @@
 
 Semantic-release shareable configuration to publish GitHub projects using GitHub Actions workflows.
 
-# Features 
+# Features
 
-- Uses [Conventional Commits](https://www.conventionalcommits.org/) to generate [release notes](https://github.com/semantic-release/release-notes-generator), [changelogs](https://github.com/semantic-release/changelog) and [determine the version for new releases](https://github.com/semantic-release/commit-analyzer). 
+- Uses [Conventional Commits](https://www.conventionalcommits.org/) to generate [release notes](https://github.com/semantic-release/release-notes-generator), [changelogs](https://github.com/semantic-release/changelog) and [determine the version for new releases](https://github.com/semantic-release/commit-analyzer).
 - [Creates or updates a CHANGELOG.md file](https://github.com/semantic-release/changelog).
 - [Publishes to npm (optional)](https://github.com/semantic-release/npm).
 - [Creates a new release on GitHub](https://github.com/semantic-release/github)
@@ -58,6 +58,7 @@ module.exports = {
   // extends: "@szum-tech/semantic-release-preset/without-npm"
 };
 ```
+
 The `branches` array is [mandatory](https://semantic-release.gitbook.io/semantic-release/usage/configuration#branches), and in most repositories you should put the default git branch here (`main`, or `master` if it's an older repository).
 
 ## Environment Variables Configuration
@@ -97,15 +98,15 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install packages ⚙️
-        run: yarn install --frozen-lockfile  
-#        run: npm ci     
+        run: yarn install --frozen-lockfile
+      #        run: npm ci
 
       - name: Publish package 🚀
-        run: yarn semantic-release            
-#        run: npx semantic-release           
+        run: yarn semantic-release
+        #        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}   # OPTIONAL if you don't publish your project on npm
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # OPTIONAL if you don't publish your project on npm
 ```
 
 # Changelog
