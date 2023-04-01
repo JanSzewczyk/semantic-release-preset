@@ -1,12 +1,11 @@
-name: Publish 🚀
+name: PR Checks ✅
 
 on:
-  push:
-    branches: [main]
+  pull_request:
 
 jobs:
-  publish:
-    name: Publish 🚀
+  prettier:
+    name: Prettier 🧹
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -22,8 +21,5 @@ jobs:
           cache: "yarn"
       - name: Install packages ⚙️
         run: yarn install --frozen-lockfile
-      - name: Publish package 🚀
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn semantic-release
+      - name: Prettier Check 🧹
+        run: yarn prettier:check
