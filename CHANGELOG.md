@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.4.0...v1.5.0) (2023-04-01)
+
+
+### Features
+
+* **semantic-release:** update `@semantic-release/npm` major version ([63d2f67](https://github.com/JanSzewczyk/semantic-release-preset/commit/63d2f671ed8bae85214b166705fbbf9f3c5e0d05))
+
 # [1.4.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.3.0...v1.4.0) (2023-02-27)
 
 
