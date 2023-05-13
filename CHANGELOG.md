@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.5.0...v1.5.1) (2023-05-13)
+
+
+### Bug Fixes
+
+* **deps:** bump deps ([e16451d](https://github.com/JanSzewczyk/semantic-release-preset/commit/e16451d9023e943913b13f50d4626bb6295da34d))
+
 # [1.5.0](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.4.0...v1.5.0) (2023-04-01)
 
 
