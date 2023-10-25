@@ -102,11 +102,12 @@ jobs:
 #        run: yarn install --frozen-lockfile
 
       - name: Publish package 🚀
-        run: npm semantic-release
-#        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # OPTIONAL if you don't publish your project on npm
+        run: npx semantic-release
+#        run: yarn semantic-release
+        
 ```
 
 # Changelog
