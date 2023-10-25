@@ -98,12 +98,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install packages ⚙️
-        run: yarn install --frozen-lockfile
-      #        run: npm ci
+        run: npm ci
+#        run: yarn install --frozen-lockfile
 
       - name: Publish package 🚀
-        run: yarn semantic-release
-        #        run: npx semantic-release
+        run: npm run semantic-release
+#        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # OPTIONAL if you don't publish your project on npm
