@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.4](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.5.3...v1.5.4) (2023-11-19)
+
+
+### Bug Fixes
+
+* **deps:** bump deps `semantic-release` to 22.0.8 version ([3191f8e](https://github.com/JanSzewczyk/semantic-release-preset/commit/3191f8eb350b5b0052a8d66f05f33c8931bc0d54))
+
 ## [1.5.3](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.5.2...v1.5.3) (2023-10-25)
 
 
