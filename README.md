@@ -99,7 +99,7 @@ jobs:
 
       - name: Install packages ⚙️
         run: npm ci
-#        run: yarn install --frozen-lockfile
+      #        run: yarn install --frozen-lockfile
 
       - name: Publish package 🚀
         env:
@@ -107,7 +107,6 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # OPTIONAL if you don't publish your project on npm
         run: npx semantic-release
 #        run: yarn semantic-release
-        
 ```
 
 # Changelog
