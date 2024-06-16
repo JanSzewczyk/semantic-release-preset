@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.7](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.5.6...v1.5.7) (2024-06-16)
+
+
+### Bug Fixes
+
+* **release:** cut patch version ([06d59ea](https://github.com/JanSzewczyk/semantic-release-preset/commit/06d59ea5d8cf42b50b428c723571167a6a6ca6d9))
+
 ## [1.5.6](https://github.com/JanSzewczyk/semantic-release-preset/compare/v1.5.5...v1.5.6) (2024-05-13)
 
 
