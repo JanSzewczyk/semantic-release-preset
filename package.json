@@ -52,9 +52,6 @@
   "peerDependencies": {
     "semantic-release": "^24.0.0"
   },
-  "engines": {
-    "node": ">=20"
-  },
   "publishConfig": {
     "access": "public"
   }
